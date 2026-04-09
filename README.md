@@ -1,4 +1,4 @@
-# 💡 Industrial Intelligence: Non-Blocking PWM Dimmer & Monitoring System
+# 💡 Non-Blocking PWM Dimmer & Monitoring System
 
 A high-performance embedded software prototype designed for industrial lighting control and safety monitoring. This project focuses on **Real-Time Responsiveness** by replacing standard `delay()` functions with a **Non-blocking (millis-based) architecture**, a critical requirement for safety-critical systems in defense and R&D sectors.
 
