@@ -10,7 +10,6 @@ A high-performance embedded software prototype designed for industrial lighting 
 * **Precision PWM Mapping:** High-resolution mapping of 10-bit Analog Input ($0-1023$) to 8-bit PWM Output ($0-255$) and 100-point Percentage Scale ($0-100\%$).
 * **Smart Telemetry System:**
     * **Visual:** 16x2 I2C LCD displaying live brightness and system health status.
-    * **Serial:** Real-time UART debugging for remote performance monitoring.
 * **Automated Safety Protocol:**
     * **Normal:** Brightness $\le 90\%$.
     * **Critical:** Brightness $> 90\%$. Triggers visual "CRITICAL" alert on LCD and high-priority Serial warning.
@@ -19,9 +18,9 @@ A high-performance embedded software prototype designed for industrial lighting 
 
 ## 🛠️ Hardware Components
 
-* **Microcontroller:** Arduino Uno R3 (ATmega328P)
+* **Microcontroller:** Arduino Uno R3
 * **Input Device:** Linear Potentiometer
-* **Display:** 16x2 LCD with I2C Module (PCF8574/MCP23008)
+* **Display:** 16x2 LCD with I2C Module (PCF8574)
 * **Actuator:** High-Intensity LED (PWM Driven)
 
 ---
