@@ -47,6 +47,3 @@ A high-performance embedded software prototype designed for industrial lighting 
 ---
 
 <img width="1791" height="260" alt="image" src="https://github.com/user-attachments/assets/649df12c-b633-4d47-b0e6-ca3af7c1734e" />
-    sendDataToSerial();
-}
-// PWM and ADC tasks run at full speed outside the IF block
