@@ -34,7 +34,6 @@ A high-performance embedded software prototype designed for industrial lighting 
 | **Main LED** | Pin 9 | Digital Output (PWM) |
 | **LCD SDA** | Pin A4 | I2C Data |
 | **LCD SCL** | Pin A5 | I2C Clock |
-| **Serial Link** | USB (D0/D1) | UART (9600 Baud) |
 
 ---
 
